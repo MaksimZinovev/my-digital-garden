@@ -2,23 +2,28 @@
 {"dg-publish":true,"permalink":"/git/git-moc/","tags":["git","moc"]}
 ---
 
+
 links: [[600 learning tools MOC \| Learning]]
+
 <br />
+
 <br />
 
 # Git
+
 Notes for Git - version control software.
 
-- ### Contents
+- Notes
 	- [[git/git commands most used\|git commands most used]]
+	- [[git/Source Control for Test Automation with Git MOC\|Source Control for Test Automation with Git MOC]]
 	- [[git/git-snippets-tutorials\|git-snippets-tutorials]]
-	- [.gitignore file - ignoring files in Git | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
+	- [gitignore file - ignoring files in Git | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
 	- [[git/remove add add new git remote replace remote with new url\|remove add add new git remote replace remote with new url]]
 	- [[git/git force pull\|git force pull]]
 	- [[git canvas.canvas\|git canvas.canvas]]
 	- [[git/git go back\|git go back]]
 
-## Useful websites 
+## Useful Websites
 
 - [Git Explorer](https://gitexplorer.com/)
 - [Oh Shit, Git!?!](https://ohshitgit.com/)
@@ -30,7 +35,3 @@ Notes for Git - version control software.
 - [Tabby - a terminal for a more modern age](https://tabby.sh/)
 - [git ready » learn git one commit at a time](https://gitready.com/)
 - [Use gitk to understand git · Los Techies](https://lostechies.com/joshuaflanagan/2010/09/03/use-gitk-to-understand-git/)
-
-## 3 areas 
-
-Your local repository has three different virtual zones or areas viz. **working** area and **staging** area and **commit** area. Working area is where you create new files, delete old files or make changes to already existing files. Once you are done with these changes, you add these changes to the staging area. **The staging area is also sometimes called the ‘Index’.**
