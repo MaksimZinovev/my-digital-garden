@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/playwright/chapter-10-integration-with-jest/","tags":["playwright"]}
 ---
 
-links:: [[TAU Course Playwright with JavaScript by Ixchel Meza 1\|TAU Course Playwright with JavaScript by Ixchel Meza 1]]
+links:: [[playwright/TAU Course Playwright with JavaScript by Ixchel Meza\|TAU Course Playwright with JavaScript by Ixchel Meza]]
 
 # Chapter 10 - Integration with JEST
 
