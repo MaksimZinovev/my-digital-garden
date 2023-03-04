@@ -13,7 +13,7 @@ Links:
 
 ## [[git/2. Introduction to Git.\|2. Introduction to Git.]]
 
-## [[3.1 Basic Git Concepts\|3.1 Basic Git Concepts]]
+## [[git/3.1 Basic Git Concepts\|3.1 Basic Git Concepts]]
 
 ## [[git/3.2 Committing and Pushing\|3.2 Committing and Pushing]]
 
