@@ -10,7 +10,6 @@ links: [[600 learning tools MOC \| Learning]]
 Notes for Git - version control software.
 
 - ### Contents
-	- [[git/Source Control for Test Automation with Git MOC\|Source Control for Test Automation with Git MOC]]
 	- [[git/git commands most used\|git commands most used]]
 	- [[git/git-snippets-tutorials\|git-snippets-tutorials]]
 	- [.gitignore file - ignoring files in Git | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
