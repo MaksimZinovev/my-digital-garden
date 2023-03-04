@@ -17,33 +17,21 @@ Links:
 
 # TAU Course Playwright With JavaScript
 
-**The topics we will be covering are:**
+**The topics covered are:**
 
-* What is Playwright?
-
-* Installation and Setup
-
-* Interacting with elements
-
-* Element state
-
-* Managing a virtual keyboard
-
-* Interacting with mouse events
-
-* Taking screenshots
-
-* Recording videos
-
-* Visual testing
-
-* Playwright Command Line Interface (CLI)
-
-* Page Object Model (POM) with Playwright
+- What is Playwright?
+- Installation and Setup
+- Interacting with elements
+- Element state
+- Managing a virtual keyboard
+- Interacting with mouse events
+- Taking screenshots
+- Recording videos
+- Visual testing
+- Playwright Command Line Interface (CLI)
+- Page Object Model (POM) with Playwright
 
 ## [[playwright/Chapter 1.1 - About Playwright\|Chapter 1.1 - About Playwright]]
-
- 
 
 ## [[playwright/Chapter 1.2 - Installing Playwright\|Chapter 1.2 - Installing Playwright]]
 
