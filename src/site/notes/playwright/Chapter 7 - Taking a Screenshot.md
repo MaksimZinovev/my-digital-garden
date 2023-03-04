@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/playwright/chapter-7-taking-a-screenshot/","tags":["playwright"]}
 ---
 
-links:: [[TAU Course Playwright with JavaScript by Ixchel Meza 1\|TAU Course Playwright with JavaScript by Ixchel Meza 1]]
+links:: [[playwright/TAU Course Playwright with JavaScript by Ixchel Meza\|TAU Course Playwright with JavaScript by Ixchel Meza]]
 
 # Chapter 7 - Taking a Screenshot
 
