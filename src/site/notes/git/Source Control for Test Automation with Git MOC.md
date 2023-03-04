@@ -27,10 +27,10 @@ Links:
 
 ## [[git/5.2 Cherry-picking, resetting,reverting\|5.2 Cherry-picking, resetting,reverting]]
 
-[[git/6. Git Branching Strategies\|6. Git Branching Strategies]]
+## [[git/6. Git Branching Strategies\|6. Git Branching Strategies]]
 
-[[git/7. Most Popular Git Repository Managers\|7. Most Popular Git Repository Managers]]
+## [[git/7. Most Popular Git Repository Managers\|7. Most Popular Git Repository Managers]]
 
-[[git/8. Further Learning Resources\|8. Further Learning Resources]]
+## [[git/8. Further Learning Resources\|8. Further Learning Resources]]
 
-[[git/Final Tips on Using Git\|Final Tips on Using Git]]
+## [[git/Final Tips on Using Git\|Final Tips on Using Git]]
