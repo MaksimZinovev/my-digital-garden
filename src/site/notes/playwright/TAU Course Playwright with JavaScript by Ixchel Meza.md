@@ -5,7 +5,7 @@
 
 Links: 
 
-- [[playwright/Playwright MOC\|Playwright MOC]]
+- [[playwright/playwright MOC\|playwright MOC]]
 - [Playwright with JavaScript](https://testautomationu.applitools.com/js-playwright-tutorial/) , [TAU Course - Introduction to JavaScript](https://testautomationu.applitools.com/javascript-tutorial/)
 - [Your 80 Questions about Playwright, Answered](https://applitools.com/blog/top-playwright-questions-answered/)
 - [Visual Studio Code](https://code.visualstudio.com/)
