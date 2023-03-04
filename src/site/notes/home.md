@@ -15,7 +15,7 @@
 
 ## Playwright
 
-- [[Playwright MOC\|Playwright MOC]]
+- [[playwright/Playwright MOC\|Playwright MOC]]
 
 ## Git
 
