@@ -3,7 +3,7 @@
 ---
 
 
-Links: [[playwright/Playwright MOC\|Playwright MOC]], [Playwright Tutorial: Getting Started With Playwright Framework | LambdaTest](https://www.lambdatest.com/blog/playwright-framework/)
+Links: [[playwright/playwright MOC\|playwright MOC]], [Playwright Tutorial: Getting Started With Playwright Framework | LambdaTest](https://www.lambdatest.com/blog/playwright-framework/)
 
 <br ><br >
 
