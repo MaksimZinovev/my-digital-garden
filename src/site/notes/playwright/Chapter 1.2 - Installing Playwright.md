@@ -12,7 +12,7 @@ links:: [[playwright/TAU Course Playwright with JavaScript by Ixchel Meza\|TAU C
 npm --version
 ```
 
-```
+```bash
 node -v
 ```
 
@@ -22,12 +22,12 @@ run terminal
 
 Skip questions and init package
 
-```
+```bash
 npm init -y
 ```
 
 Install playwright
 
-```
+```bash
 npm i -D playwright 
 ```
