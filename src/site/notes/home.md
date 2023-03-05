@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","tags":["digital-garden","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/home/","tags":["digital-garden","gardenEntry","gardenEntry","gardenEntry"]}
 ---
 
 
@@ -22,9 +22,18 @@ Currently, I work as a software tester based in Sydney, Australia. My profession
 
 My hobbies: music, hiking, gym.
 
-## What's Inside?
+## What's inside?
 
 - [[cypress/cypress MOC\|cypress MOC]]
 - [[playwright/playwright MOC\|playwright MOC]]
 - [[git/git MOC\|git MOC]]
 - [[javascript/javascript MOC\|javascript MOC]]
+
+## How to navigate
+
+There are several ways to navigate content in digital garden.
+
+1. Search. Click search icon at the top or press ‘Cmd+K’ or  ‘Ctrl+K’ 
+2. Navigation menu on the left side of the page
+3. MOCs. Map of content([MoC](https://www.dsebastien.net/2022-05-15-maps-of-content/)) is a note containing links to other notes. It’s a **meta note**.
+4. Graph. Click on the nodes in graph to navigate between linked notes.
