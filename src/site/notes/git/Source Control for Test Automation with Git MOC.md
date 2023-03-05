@@ -11,7 +11,7 @@ Links:
 
 ## [[git/1. What is Version Control\|1. What is Version Control]]
 
-## [[git/2. Introduction to Git.\|2. Introduction to Git.]]
+## [[git/2. Introduction to Git\|2. Introduction to Git.]]
 
 ## [[git/3.1 Basic Git Concepts\|3.1 Basic Git Concepts]]
 
