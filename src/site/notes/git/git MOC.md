@@ -5,9 +5,6 @@
 
 links: [[600 learning tools MOC \| Learning]]
 
-<br />
-
-<br />
 
 # Git
 
