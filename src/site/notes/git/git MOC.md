@@ -2,10 +2,9 @@
 {"dg-publish":true,"permalink":"/git/git-moc/","tags":["git","moc"]}
 ---
 
+![git MOC-1678570127836.jpeg|canvas-top](/img/user/git/attachments/git%20MOC-1678570127836.jpeg)
 
 links: [[600 learning tools MOC \| Learning]]
-
-
 # Git
 
 Notes for Git - version control software.
