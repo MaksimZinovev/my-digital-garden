@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cypress/chapter-1-setting-up-cypress/","tags":["cypress"]}
+{"dg-publish":true,"permalink":"/cypress/chapter-1-setting-up-cypress/","tags":["cypress"],"created":"","updated":""}
 ---
 
 ## Chapter 1 - Setting up Cypress
