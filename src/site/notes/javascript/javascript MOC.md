@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/javascript/javascript-moc/","tags":["javascript"]}
+{"dg-publish":true,"permalink":"/javascript/javascript-moc/","tags":["javascript"],"created":"","updated":""}
 ---
 
 
