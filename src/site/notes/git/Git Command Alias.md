@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/git/git-command-alias/","tags":["git"]}
+{"dg-publish":true,"permalink":"/git/git-command-alias/","tags":["git"],"created":"","updated":""}
 ---
 
 Git provides alias creation for most commonly used commands.
