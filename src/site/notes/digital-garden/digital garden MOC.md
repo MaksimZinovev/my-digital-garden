@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/digital-garden-moc/","tags":["digital-garden"]}
+{"dg-publish":true,"permalink":"/digital-garden/digital-garden-moc/","tags":["digital-garden"],"created":"","updated":""}
 ---
 
 
