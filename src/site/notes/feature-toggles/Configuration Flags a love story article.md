@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/feature-toggles/configuration-flags-a-love-story-article/","tags":["feature-toggles"]}
+{"dg-publish":true,"permalink":"/feature-toggles/configuration-flags-a-love-story-article/","tags":["feature-toggles"],"created":"","updated":""}
 ---
 
 
