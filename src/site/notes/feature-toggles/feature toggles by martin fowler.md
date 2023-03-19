@@ -3,7 +3,7 @@
 ---
 
 
-links: [[feature-toggles/feature toggles MOC\|feature toggles MOC]]
+links: [[feature-toggles/feature toggles MOC\|feature toggles MOC]] ,[Feature Toggles (aka Feature Flags)](https://martinfowler.com/articles/feature-toggles.html)
 
 
 Please summarise the text block using only outline.
