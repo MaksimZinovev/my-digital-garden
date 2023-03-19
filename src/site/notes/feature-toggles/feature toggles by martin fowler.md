@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/feature-toggles/feature-toggles-by-martin-fowler/","tags":["feature-toggles"]}
+{"dg-publish":true,"permalink":"/feature-toggles/feature-toggles-by-martin-fowler/","tags":["feature-toggles"],"created":"","updated":""}
 ---
 
 
