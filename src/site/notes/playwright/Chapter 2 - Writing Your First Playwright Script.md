@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/playwright/chapter-2-writing-your-first-playwright-script/","tags":["playwright"]}
+{"dg-publish":true,"permalink":"/playwright/chapter-2-writing-your-first-playwright-script/","tags":["playwright"],"created":"","updated":""}
 ---
 
 links:: [[playwright/TAU Course Playwright with JavaScript by Ixchel Meza\|TAU Course Playwright with JavaScript by Ixchel Meza]]
