@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/playwright/chapter-3-4-checkboxes-and-radiobuttons-dropdowns-in-playwright/","tags":["playwright"]}
+{"dg-publish":true,"permalink":"/playwright/chapter-3-4-checkboxes-and-radiobuttons-dropdowns-in-playwright/","tags":["playwright"],"created":"","updated":""}
 ---
 
 links:: [[playwright/TAU Course Playwright with JavaScript by Ixchel Meza\|TAU Course Playwright with JavaScript by Ixchel Meza]]
