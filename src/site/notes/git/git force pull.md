@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/git/git-force-pull/","tags":["git"]}
+{"dg-publish":true,"permalink":"/git/git-force-pull/","tags":["git"],"created":"","updated":""}
 ---
 
 
