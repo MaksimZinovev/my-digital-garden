@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/create-subdomain-in-hostinger-and-connect-to-vercel-app/"}
+{"dg-publish":true,"permalink":"/digital-garden/create-subdomain-in-hostinger-and-connect-to-vercel-app/","created":"","updated":""}
 ---
 
 Links: [[digital-garden/digital garden MOC\|digital garden MOC]]
