@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/javascript/javascript-validator/"}
+{"dg-publish":true,"permalink":"/javascript/javascript-validator/","created":"","updated":""}
 ---
 
 
