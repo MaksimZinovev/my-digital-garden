@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/git/source-control-for-test-automation-with-git-moc/","tags":["git"]}
+{"dg-publish":true,"permalink":"/git/source-control-for-test-automation-with-git-moc/","tags":["git"],"created":"","updated":""}
 ---
 
 
