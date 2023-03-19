@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/playwright/playwright-tutorial-getting-started-with-playwright-framework-lambda-test/","tags":["playwright"]}
+{"dg-publish":true,"permalink":"/playwright/playwright-tutorial-getting-started-with-playwright-framework-lambda-test/","tags":["playwright"],"created":"","updated":""}
 ---
 
 
