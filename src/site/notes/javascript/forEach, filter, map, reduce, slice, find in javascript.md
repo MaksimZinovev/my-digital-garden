@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/javascript/for-each-filter-map-reduce-slice-find-in-javascript/"}
+{"dg-publish":true,"permalink":"/javascript/for-each-filter-map-reduce-slice-find-in-javascript/","created":"","updated":""}
 ---
 
 
