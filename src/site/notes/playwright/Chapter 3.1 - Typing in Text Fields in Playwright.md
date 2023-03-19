@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/playwright/chapter-3-1-typing-in-text-fields-in-playwright/","tags":["playwright"]}
+{"dg-publish":true,"permalink":"/playwright/chapter-3-1-typing-in-text-fields-in-playwright/","tags":["playwright"],"created":"","updated":""}
 ---
 
 links:: [[playwright/TAU Course Playwright with JavaScript by Ixchel Meza\|TAU Course Playwright with JavaScript by Ixchel Meza]]
