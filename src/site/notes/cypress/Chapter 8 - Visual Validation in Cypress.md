@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cypress/chapter-8-visual-validation-in-cypress/","tags":["cypress"]}
+{"dg-publish":true,"permalink":"/cypress/chapter-8-visual-validation-in-cypress/","tags":["cypress"],"created":"","updated":""}
 ---
 
 ## Chapter 8 - Visual Validation in Cypress
