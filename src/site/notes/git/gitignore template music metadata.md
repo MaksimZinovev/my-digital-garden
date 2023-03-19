@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/git/gitignore-template-music-metadata/","tags":["git"]}
+{"dg-publish":true,"permalink":"/git/gitignore-template-music-metadata/","tags":["git"],"created":"","updated":""}
 ---
 
 
