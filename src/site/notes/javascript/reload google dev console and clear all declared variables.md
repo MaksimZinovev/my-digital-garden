@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/javascript/reload-google-dev-console-and-clear-all-declared-variables/"}
+{"dg-publish":true,"permalink":"/javascript/reload-google-dev-console-and-clear-all-declared-variables/","created":"","updated":""}
 ---
 
 
