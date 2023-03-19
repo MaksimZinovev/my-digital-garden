@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/home/","tags":["digital-garden","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/digital-garden/home/","tags":["digital-garden","gardenEntry","gardenEntry","gardenEntry"],"created":"","updated":""}
 ---
 
 
@@ -42,4 +42,3 @@ There are several ways to navigate content in digital garden.
 
 ---
 modified: 2023-03-19
-
