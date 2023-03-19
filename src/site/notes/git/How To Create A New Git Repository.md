@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/git/how-to-create-a-new-git-repository/","tags":["git"]}
+{"dg-publish":true,"permalink":"/git/how-to-create-a-new-git-repository/","tags":["git"],"created":"","updated":""}
 ---
 
 Links: [[github MOC\|github MOC]], [[git/git MOC\|git MOC]]
