@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/git/git-go-back/","tags":["git"]}
+{"dg-publish":true,"permalink":"/git/git-go-back/","tags":["git"],"created":"","updated":""}
 ---
 
 
