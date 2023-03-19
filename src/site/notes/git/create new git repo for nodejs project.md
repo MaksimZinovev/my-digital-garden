@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/git/create-new-git-repo-for-nodejs-project/","tags":["git"]}
+{"dg-publish":true,"permalink":"/git/create-new-git-repo-for-nodejs-project/","tags":["git"],"created":"","updated":""}
 ---
 
 
