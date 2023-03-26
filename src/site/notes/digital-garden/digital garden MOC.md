@@ -59,9 +59,15 @@ In VS Code:
 
 Hotkey: `Cmd+Shift+H`
 
-Find: `(\w+)\.(jpeg|png)\b(?!.*\|\d{3}\]\])`
+Find: 
+```
+(\w+)\.(jpeg|png)\b(?!.*\|\d{3}\]\])
+```
 
-Replace: `$1.$2|500`
+Replace: 
+```
+
+```
 
 ## Create MOC Automatically
 
@@ -82,3 +88,12 @@ Use File cooker plugin to move files in bulk
 View this note for more details: [[digital-garden/create subdomain in hostinger and connect to vercel app\|create subdomain in hostinger and connect to vercel app]]
 
 
+
+## List of favourite themes and appearance settings 
+
+- theme: red graphite
+	- [seanwcom/Red-Graphite-for-Obsidian: A light theme for Obsidian.md, based on Bear.app's Red Graphite theme.](https://github.com/seanwcom/Red-Graphite-for-Obsidian)
+	- accent color: 246, 205, 116
+- theme: minimal
+	- [seanwcom/Red-Graphite-for-Obsidian: A light theme for Obsidian.md, based on Bear.app's Red Graphite theme.](https://github.com/seanwcom/Red-Graphite-for-Obsidian)
+	- accent color: 242, 213, 207
