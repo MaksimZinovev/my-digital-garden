@@ -50,5 +50,4 @@ Here is the result
 folder1/folder3/resources MOC.md
 folder1/notes.md
 folder2/notes.md
-
 ```
