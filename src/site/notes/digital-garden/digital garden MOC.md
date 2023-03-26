@@ -57,16 +57,34 @@ done
 
 In VS Code:
 
-Hotkey: `Cmd+Shift+H`
+Hotkey: `Cmd+Shift+H'`
+
+Option 1
 
 Find: 
+
 ```
 (\w+)\.(jpeg|png)\b(?!.*\|\d{3}\]\])
 ```
 
 Replace: 
+
+```
+$1.$2|500
 ```
 
+Option 2 
+
+Find: 
+
+```
+(\[\[.*?)(\.png|\.jpg)(\]\])
+```
+
+Replace: 
+
+```
+$1$2|500$3
 ```
 
 ## Create MOC Automatically
@@ -74,7 +92,7 @@ Replace:
 1. Create moc file
 2. In linked notes, reference MOC file
 3. Use plugin [GitHub - dalcantara7/obsidian-auto-moc](https://github.com/dalcantara7/obsidian-auto-moc) to generate MOC file automatically using mentions or tags
-4. Run command: `AutoMOC: Add  missing linked mentions at the coursor position`
+4. Run command: `AutoMOC: Add missing linked mentions at the coursor position`
 
 ## Move Files with the Same Tag to Separate Folder
 
@@ -87,9 +105,7 @@ Use File cooker plugin to move files in bulk
 
 View this note for more details: [[digital-garden/create subdomain in hostinger and connect to vercel app\|create subdomain in hostinger and connect to vercel app]]
 
-
-
-## List of favourite themes and appearance settings 
+## List of Favourite Themes and Appearance Settings
 
 - theme: red graphite
 	- [seanwcom/Red-Graphite-for-Obsidian: A light theme for Obsidian.md, based on Bear.app's Red Graphite theme.](https://github.com/seanwcom/Red-Graphite-for-Obsidian)
