@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/playwright-intro-js-tau/tau-course-playwright-with-java-script-by-ixchel-meza/","tags":["playwright"],"created":"","updated":""}
+{"dg-publish":true,"dg-path":"courses/playwright-intro-js-tau/TAU Course Playwright with JavaScript by Ixchel Meza.md","permalink":"/courses/playwright-intro-js-tau/tau-course-playwright-with-java-script-by-ixchel-meza/","tags":["playwright"],"created":"","updated":""}
 ---
 
 
