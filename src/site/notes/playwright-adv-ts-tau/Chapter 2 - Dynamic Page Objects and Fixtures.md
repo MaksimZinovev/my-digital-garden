@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/playwright-adv-ts-tau/chapter-2-dynamic-page-objects-and-fixtures/","created":"","updated":""}
+{"dg-publish":true,"dg-path":"courses/playwright-adv-ts-tau/Chapter 2 - Dynamic Page Objects and Fixtures.md","permalink":"/courses/playwright-adv-ts-tau/chapter-2-dynamic-page-objects-and-fixtures/","created":"","updated":""}
 ---
 
 links:: [[playwright-adv-ts-tau/advanced Playwright MOC\|advanced Playwright MOC]]
