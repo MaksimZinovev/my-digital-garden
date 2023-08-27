@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/playwright-adv-ts-tau/run-the-project/","created":"","updated":""}
+{"dg-publish":true,"dg-path":"courses/playwright-adv-ts-tau/Run the Project.md","permalink":"/courses/playwright-adv-ts-tau/run-the-project/","created":"","updated":""}
 ---
 
 links:: [[playwright-adv-ts-tau/advanced Playwright MOC\|advanced Playwright MOC]]
