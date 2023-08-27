@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/playwright-adv-ts-tau/links-advanced-playwright/","created":"","updated":""}
+{"dg-publish":true,"dg-path":"courses/playwright-adv-ts-tau/Links Advanced Playwright.md","permalink":"/courses/playwright-adv-ts-tau/links-advanced-playwright/","created":"","updated":""}
 ---
 
 links:: [[playwright-adv-ts-tau/advanced Playwright MOC\|advanced Playwright MOC]]
