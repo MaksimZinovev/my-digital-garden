@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/playwright-intro-js-tau/chapter-9-emulating-mobile-devices/","tags":["playwright"],"created":"","updated":""}
+{"dg-publish":true,"dg-path":"courses/playwright-intro-js-tau/Chapter 9 - Emulating Mobile Devices.md","permalink":"/courses/playwright-intro-js-tau/chapter-9-emulating-mobile-devices/","tags":["playwright"],"created":"","updated":""}
 ---
 
 links:: [[playwright-intro-js-tau/TAU Course Playwright with JavaScript by Ixchel Meza\|TAU Course Playwright with JavaScript by Ixchel Meza]]
