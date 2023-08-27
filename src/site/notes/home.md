@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","tags":["digital-garden","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/home/","tags":["digital-garden","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"created":"","updated":""}
 ---
 
 
@@ -24,11 +24,11 @@ My hobbies: music, hiking, gym. I love electronic and house music. Feel free to 
 
 ## What's Inside?
 
-- [[cypress/cypress MOC\|cypress MOC]] 
-- [[playwright/playwright MOC\|playwright MOC]]
+- [[cypress MOC\|cypress MOC]] 
+- [[playwright-intro-js-tau/playwright MOC\|playwright MOC]]
 - [[git/git MOC\|git MOC]]
 - [[javascript/javascript MOC\|javascript MOC]]
-- [[digital-garden/digital garden MOC\|digital garden MOC]]
+- [[digital garden MOC\|digital garden MOC]]
 
 ## How to Navigate
 
