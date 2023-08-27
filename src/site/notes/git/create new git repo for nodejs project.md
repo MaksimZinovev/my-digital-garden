@@ -30,4 +30,18 @@ git push -uf origin main
 
 > The command `git branch -M main` is often used to rename the default "master" branch to "main", but note you must have at made at least 1 commit in your repo for this to work
 
-<br ><br >
+## Check Existing Remote URL
+
+```bash
+git remote -v
+```
+
+## Change Existing Remote URL
+
+```Shell
+# Remove the existing remote URL
+git remote remove origin
+
+# Add the new remote URL
+git remote add origin {{new_remote_url}}
+```
