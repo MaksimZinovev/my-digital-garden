@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/playwright-intro-js-tau/chapter-1-1-about-playwright/","tags":["playwright"],"created":"","updated":""}
+{"dg-publish":true,"dg-path":"courses/playwright-intro-js-tau/Chapter 1.1 - About Playwright.md","permalink":"/courses/playwright-intro-js-tau/chapter-1-1-about-playwright/","tags":["playwright"],"created":"","updated":""}
 ---
 
 links:: [[playwright-intro-js-tau/TAU Course Playwright with JavaScript by Ixchel Meza\|TAU Course Playwright with JavaScript by Ixchel Meza]]
