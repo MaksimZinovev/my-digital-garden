@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/playwright-intro-js-tau/playwright-moc/","tags":["tools","moc","playwright"],"created":"","updated":""}
+{"dg-publish":true,"dg-path":"courses/playwright-intro-js-tau/playwright MOC.md","permalink":"/courses/playwright-intro-js-tau/playwright-moc/","tags":["tools","moc","playwright"],"created":"","updated":""}
 ---
 
 links: [[testing MOC\|testing MOC]], [[600 learning tools MOC\|600 learning tools MOC]], 
