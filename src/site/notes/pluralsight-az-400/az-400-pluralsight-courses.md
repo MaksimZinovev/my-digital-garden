@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/pluralsight-az-400/az-400-pluralsight-courses/","tags":["course","azure"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/pluralsight-az-400/az-400-pluralsight-courses/","tags":["course","azure"]}
 ---
 
 
