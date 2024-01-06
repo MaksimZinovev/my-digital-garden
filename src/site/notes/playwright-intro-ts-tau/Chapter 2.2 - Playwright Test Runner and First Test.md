@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/playwright-intro-ts-tau/chapter-2-2-playwright-test-runner-and-first-test/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/playwright-intro-ts-tau/chapter-2-2-playwright-test-runner-and-first-test/"}
 ---
 
 links:: [[playwright-intro-ts-tau/introduction to playwright typescript MOC\|introduction to playwright typescript MOC]]
