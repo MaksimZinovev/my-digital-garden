@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/azure-continuous-testing-tau/continuous-testing-with-azure-dev-ops-tau-course-moc/","tags":["azure"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/azure-continuous-testing-tau/continuous-testing-with-azure-dev-ops-tau-course-moc/","tags":["azure"]}
 ---
 
 
