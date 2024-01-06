@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"courses/playwright-intro-js-tau/Playwright Tutorial Getting Started With Playwright Framework LambdaTest.md","permalink":"/courses/playwright-intro-js-tau/playwright-tutorial-getting-started-with-playwright-framework-lambda-test/","tags":["playwright"],"created":"","updated":""}
+{"dg-publish":true,"dg-path":"courses/playwright-intro-js-tau/Playwright Tutorial Getting Started With Playwright Framework LambdaTest.md","permalink":"/courses/playwright-intro-js-tau/playwright-tutorial-getting-started-with-playwright-framework-lambda-test/","tags":["playwright"]}
 ---
 
 
