@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cypress-intro-tau/introduction-to-cypress-by-gil-tayar-tau-course/","tags":["cypress"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/cypress-intro-tau/introduction-to-cypress-by-gil-tayar-tau-course/","tags":["cypress"]}
 ---
 
 
