@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"courses/playwright-adv-ts-tau/Chapter 1.1 - Optimizing Authentication - Demoqa Site Example.md","permalink":"/courses/playwright-adv-ts-tau/chapter-1-1-optimizing-authentication-demoqa-site-example/","created":"","updated":""}
+{"dg-publish":true,"dg-path":"courses/playwright-adv-ts-tau/Chapter 1.1 - Optimizing Authentication - Demoqa Site Example.md","permalink":"/courses/playwright-adv-ts-tau/chapter-1-1-optimizing-authentication-demoqa-site-example/"}
 ---
 
 links:: [[playwright-adv-ts-tau/advanced Playwright MOC\|advanced Playwright MOC]]
