@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/playwright-intro-ts-tau/introduction-to-playwright-typescript-moc/","tags":["playwright"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/playwright-intro-ts-tau/introduction-to-playwright-typescript-moc/","tags":["playwright"]}
 ---
 
 
@@ -19,3 +19,4 @@ Links: [[playwright-intro-js-tau/playwright MOC\|playwright MOC]]
 - ## [[playwright-intro-ts-tau/Chapter 4.1 - Visual Regression Testing with Applitools\|Chapter 4.1 - Visual Regression Testing with Applitools]]
 - ## [[playwright-intro-ts-tau/Chapter 4.2 - Visual Regression Testing in Playwright\|Chapter 4.2 - Visual Regression Testing in Playwright]]
 - ## [[playwright-intro-ts-tau/Chapter 5.1 - Troubleshooting Test Issues\|Chapter 5.1 - Troubleshooting Test Issues]]
+- ## [[Tips - Playwright\|Tips - Playwright]]
