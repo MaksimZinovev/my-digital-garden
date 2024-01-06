@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/playwright-intro-ts-tau/chapter-3-2-coding-like-a-pro-in-playwright/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/playwright-intro-ts-tau/chapter-3-2-coding-like-a-pro-in-playwright/"}
 ---
 
 links:: [[playwright-intro-ts-tau/introduction to playwright typescript MOC\|introduction to playwright typescript MOC]]
