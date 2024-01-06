@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cypress-intro-tau/cypress-moc/","tags":["MOC","cypress"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/cypress-intro-tau/cypress-moc/","tags":["MOC","cypress"]}
 ---
 
 Link: [[600 learning tools MOC\|600 learning tools MOC]]
