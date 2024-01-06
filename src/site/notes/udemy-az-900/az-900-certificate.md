@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/udemy-az-900/az-900-certificate/","tags":["azure","course"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/udemy-az-900/az-900-certificate/","tags":["azure","course"]}
 ---
 
 
