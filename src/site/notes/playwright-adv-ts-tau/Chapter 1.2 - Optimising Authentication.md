@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"courses/playwright-adv-ts-tau/Chapter 1.2 - Optimising Authentication.md","permalink":"/courses/playwright-adv-ts-tau/chapter-1-2-optimising-authentication/","created":"","updated":""}
+{"dg-publish":true,"dg-path":"courses/playwright-adv-ts-tau/Chapter 1.2 - Optimising Authentication.md","permalink":"/courses/playwright-adv-ts-tau/chapter-1-2-optimising-authentication/"}
 ---
 
 links:: [[playwright-adv-ts-tau/advanced Playwright MOC\|advanced Playwright MOC]]
