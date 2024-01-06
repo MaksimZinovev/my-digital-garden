@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/git/final-tips-on-using-git/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/git/final-tips-on-using-git/"}
 ---
 
-links:: [[Source Control for Test Automation with Git MOC\|Source Control for Test Automation with Git MOC]]
+links:: [[git/Source Control for Test Automation with Git MOC\|Source Control for Test Automation with Git MOC]]
 
 # Final Tips on Using Git
 
