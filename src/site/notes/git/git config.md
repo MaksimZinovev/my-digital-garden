@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/git/git-config/","tags":["git"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/git/git-config/","tags":["git"]}
 ---
 
 
