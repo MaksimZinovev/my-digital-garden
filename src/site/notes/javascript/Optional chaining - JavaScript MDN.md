@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/javascript/optional-chaining-java-script-mdn/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/javascript/optional-chaining-java-script-mdn/"}
 ---
 
 
