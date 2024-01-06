@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"courses/playwright-intro-js-tau/Chapter 10 - Integration with JEST.md","permalink":"/courses/playwright-intro-js-tau/chapter-10-integration-with-jest/","tags":["playwright"],"created":"","updated":""}
+{"dg-publish":true,"dg-path":"courses/playwright-intro-js-tau/Chapter 10 - Integration with JEST.md","permalink":"/courses/playwright-intro-js-tau/chapter-10-integration-with-jest/","tags":["playwright"]}
 ---
 
-links:: [[playwright-intro-js-tau/TAU Course Playwright with JavaScript by Ixchel Meza\|TAU Course Playwright with JavaScript by Ixchel Meza]]
+links:: [[playwright-intro-js-tau/TAU Course Playwright with JavaScript by Ixchel Meza MOC\|TAU Course Playwright with JavaScript by Ixchel Meza MOC]]
 
 # Chapter 10 - Integration with JEST
 
