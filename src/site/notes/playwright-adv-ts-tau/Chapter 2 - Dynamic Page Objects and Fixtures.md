@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"courses/playwright-adv-ts-tau/Chapter 2 - Dynamic Page Objects and Fixtures.md","permalink":"/courses/playwright-adv-ts-tau/chapter-2-dynamic-page-objects-and-fixtures/","created":"","updated":""}
+{"dg-publish":true,"dg-path":"courses/playwright-adv-ts-tau/Chapter 2 - Dynamic Page Objects and Fixtures.md","permalink":"/courses/playwright-adv-ts-tau/chapter-2-dynamic-page-objects-and-fixtures/"}
 ---
 
 links:: [[playwright-adv-ts-tau/advanced Playwright MOC\|advanced Playwright MOC]]
@@ -88,7 +88,7 @@ test.describe('Profile - Dynamic Page Object Model', () => {
 ### Fixtures
 
 ```typescript
-// boos-store-fixture.ts
+// book-store-fixture.ts
 import { test as base } from "@playwright/test";
 import BookStorePage from "../pages/book-store-page";
 import hooks from "../../utils/hooks";
@@ -196,3 +196,4 @@ test.describe("Book store  - Fixture", () => {
 });
 
 ```
+
