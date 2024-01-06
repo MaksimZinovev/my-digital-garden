@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cypress-intro-tau/chapter-7-page-objects-in-cypress/","tags":["cypress"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/cypress-intro-tau/chapter-7-page-objects-in-cypress/","tags":["cypress"]}
 ---
 
 ## Chapter 7 - Page Objects in Cypress
