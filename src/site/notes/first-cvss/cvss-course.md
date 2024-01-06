@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/first-cvss/cvss-course/","tags":["security","course"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/first-cvss/cvss-course/","tags":["security","course"]}
 ---
 
 
