@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/microsoft-intro-az-400/az-400-introduction-to-az-400-designing-and-implementing-microsoft-devops-solutions-exam/","tags":["azure","course"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/microsoft-intro-az-400/az-400-introduction-to-az-400-designing-and-implementing-microsoft-devops-solutions-exam/","tags":["azure","course"]}
 ---
 
 
