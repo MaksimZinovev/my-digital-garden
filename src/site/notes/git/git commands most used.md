@@ -1,12 +1,17 @@
 ---
-{"dg-publish":true,"permalink":"/git/git-commands-most-used/","tags":["git"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/git/git-commands-most-used/","tags":["git"]}
 ---
 
+
+# Git Commands Most Used
+
 Date: 2021-01-13
-Reference:  [[git/git MOC\|git MOC]]
+
+Reference: [[git/git MOC\|git MOC]]
+
 Tags: #git
 
-## 1. [How to]  Folder (or files)  **already have been tracked in Git** but you no longer want them to be tracked?  Then untrack the folder (files)  and then add into gitignore
+## 1. [How to] Folder (or files) **already Have Been Tracked in Git** but You no Longer want Them to Be Tracked? Then Untrack the Folder (files) and then Add into Gitignore
 
 ```python
 #folder
@@ -16,7 +21,7 @@ git add .gir
 git commit -m "untrack files"
 ```
 
-## 2. Update local files and **force to overwrite remote files**
+## 2. Update Local Files and **force to Overwrite Remote files**
 
 ```sh
 git checkout
@@ -25,7 +30,7 @@ git commit -m "local changes"
 ga .
 ```
 
-## 3. Push changes to remote repo (**forced update**)
+## 3. Push Changes to Remote Repo (**forced update**)
 
 ```bash
 git push --force
@@ -33,7 +38,7 @@ git push --force
 gpf!='git push --force'
 ```
 
-## 4. [How to]  list all **files tracked** by Git
+## 4. [How to] List All **files tracked** by Git
 
 ```
 git ls-tree -r master --name-only
@@ -41,7 +46,7 @@ git ls-tree -r master --name-only
 gtn=git ls-tree -r master --name-only
 ```
 
-## 5. git commit and add one-liner (requires setting up  function)
+## 5. Git Commit and Add One-liner (requires Setting up function)
 
 ```bash
   acm "message"
@@ -52,7 +57,7 @@ gtn=git ls-tree -r master --name-only
   git commit -m "message"
 ```
 
-## 6.  Push to remote repo
+## 6. Push to Remote Repo
 
 - go to github
 - login
@@ -72,7 +77,7 @@ git push -u origin master
 
 > The `-u` is a shortcut for the `--set-upstream-to` flag which should be used while pushing the very first commit. However, you can use `--track` flag to track the current branch with a remote branch.
 
-## 7. How to find the N largest files in a git repository?
+## 7. How to Find the N Largest Files in a Git Repository?
 
 ```
 
@@ -80,7 +85,7 @@ git ls-files | xargs ls -l | sort -nrk5 | head -n 10
 
 ```
 
-## 8. What is the actual size of your  git repository?
+## 8. What is the Actual Size of Your Git Repository?
 
 ```
 git count-objects -vH
@@ -93,7 +98,7 @@ Oopen repository pagerem > Settings > Options > Danger Zone
 
 ```
 
-## 10. Git initial setup 
+## 10. Git Initial Setup
 
 ```git
 git config --global user.name 'Maksim Zinovev'
@@ -103,11 +108,11 @@ git config --global --list
 
 ```
 
-## 11. Verify if a local repository is tracking the remote repository 
+## 11. Verify if a Local Repository is Tracking the Remote Repository
 
  ` git remote -v ` 
 
-## 12. Move all changed, deleted and new files from the working area to the staging area. This process also known as **staging**.
+## 12. Move All Changed, Deleted and New Files from the Working Area to the Staging Area. This Process also Known as **staging**.
 
 ```bash
 git add -A
@@ -115,7 +120,8 @@ git add -A
 
 > You can also use `git add -u`, `git add .` and `git add *` to stage all files at once. They work a little differently than `git add -A`. `git add -A` add all new, modified and deleted files (tracked+untracked) to staging area. `git add folder/` will add all files in that folder with `-A` flag. `git add -u` adds only updated AKA modified+deleted (tracked only) files to staging area. `git add .` acts like `git add -A` but it will only pick up files from the current directory you are in (check terminal). Don’t use `_git add *_` _command, explained here (_[https://stackoverflow.com/a/26042516/2790983](https://stackoverflow.com/a/26042516/2790983)_)_
 
-## 13.  Unstage files
+## 13. Unstage Files
+
 If you added some files in the staging area by mistake, then you can use the following command to unstage them.
 
 ```
@@ -124,7 +130,7 @@ git reset add.js
 # now "add.js" is untracked
 ```
 
-## 14. Commit 
+## 14. Commit
 
 Since, we are done with it, we can stage it back again with `git add add.js`. It’s time to time to make our first commit. To create a commit, use the following command.
 
@@ -143,7 +149,7 @@ git commit -m "initial commit"
 
   will show you the status of the working directory.
 
-## 16. Log 
+## 16. Log
 
 `git log` will show you the commit hash, the author and the commit message along with other details.
 
@@ -155,7 +161,8 @@ git log --oneline
 ```
 
 will output the short commit number and commit title
-## 17. Warning: in the working copy of LF will be replaced by CRLF the next time Git touches it
+
+## 17. Warning: in the Working Copy of LF Will Be Replaced by CRLF the next time Git Touches it
 
 Set up the CRLF and the problem will "disappear"
 
@@ -167,33 +174,33 @@ git config --global core.autocrlf false
 `git config --global core.safecrlf false`
 ```
 
-## 18. To change the message of the previous commit, use the following command.
+## 18. To Change the Message of the Previous Commit, Use the following Command.
 
 ```bash
 git commit --amend -m "Initial Commit"
 ```
 
-## 19. Add  file to the previous commit
-
+## 19. Add File to the Previous Commit
 
 first stage it 
 
 `git add -A`
+
 and then use
+
 `git commit --amend`
 
-
-20.  Reset repository to a revision
+20. Reset repository to a revision
 
 It is possible that you made a commit that you didn’t intend to make. So, what about that? HEAD is pointer to the last commit in Git history.
 
 We want our repository (_actually branch we are in, explained later_) to point to the commit with the hash that starts wit `852309` and **forget as if commits after that ever existed**. There are a few ways to achieve this.
 
--   `git reset --soft 852309` will remove all commits after commit `852309` and will bring all changed code after that into the staging area. You don’t need to use the full hash of a commit. All commits after this commit are then removed from git history.
--   `git reset --mixed 852309` will remove all commits after commit `852309` and will bring the changed code after that to the working area. This command is the same as `git reset 852309`.
--   `git reset --hard 852309` will remove all commits after commit `852309` and destroy all changed code after that. This will also remove the changed files in the working or staging area. Hence `git reset --hard HEAD` is also used to get rid of all the changes whether it is inside the working area or the staging area. **One important thing to remember is that all untracked files (_newly created files_) will not be removed.**
+- `git reset --soft 852309` will remove all commits after commit `852309` and will bring all changed code after that into the staging area. You don’t need to use the full hash of a commit. All commits after this commit are then removed from git history.
+- `git reset --mixed 852309` will remove all commits after commit `852309` and will bring the changed code after that to the working area. This command is the same as `git reset 852309`.
+- `git reset --hard 852309` will remove all commits after commit `852309` and destroy all changed code after that. This will also remove the changed files in the working or staging area. Hence `git reset --hard HEAD` is also used to get rid of all the changes whether it is inside the working area or the staging area. **One important thing to remember is that all untracked files (_newly created files_) will not be removed.**
 
-1. Use  `git reset 852309` to  remove all commits after commit `852309` and l bring the changed code after that to the working area.
+1. Use `git reset 852309` to remove all commits after commit `852309` and l bring the changed code after that to the working area.
 2. Make additional changes in working area if required. 
 3. Use `git diff` to see what code changes between the current state of the files and the state of the files in the previous commit
 4. `git add -A` - add to staging area.
@@ -201,7 +208,7 @@ We want our repository (_actually branch we are in, explained later_) to point t
 6. Now instead of multiple commits we have just one commit after `852309` and required changes. 
 7. `git push`
 
-## 20. Fixing common mistakes
+## 20. Fixing Common Mistakes
 
 There will be some cases where changes in the code or a repository happened due to an error, like unzipping of a tar file which added thousands untracked folders and files, or files changed due to some system error. To avoid such problems, use the following approach.
 
@@ -221,12 +228,11 @@ If you have lots of untracked files or folders in the repository which you want 
 git clean -f -d
 ```
 
-## 21. Head 
+## 21. Head
 
 HEAD is just a pointer to the last commit in a currently checked out branch (the current branch we are in). Hence whenever I say HEAD of master branch, it doesn’t mean, master branch doesn’t have different HEAD than other branch. It means HEAD when we are in master branch. So bear with me on this one.
 
-
-## 22. Branch 
+## 22. Branch
 
 When we create a new branch, we are creating a new tuple with a branch name and a commit. The commit for the new branch is taken from the last commit of another branch. If we are inside `master` branch and we instructed Git to create new branch, Git will pick up last from `master` branch. Once we switch the branch, HEAD will point to the last commit of the current branch.
 
@@ -260,7 +266,7 @@ when we will create a new commit, it will be added to the top becoming **HEAD** 
 
 To check all local and remote branches, use `git branch -a`. So far there is only one remote branch.
 
-## 23. Fetch 
+## 23. Fetch
 
 You can use `git fetch` at any time to update your remote-tracking branches. Let’s create a remote branch from GitHub.
 
@@ -282,8 +288,7 @@ remotes/origin/master
 remotes/origin/testing-remote-branch
 ```
 
-## 24. Set the upstream for the local  branch
-
+## 24. Set the upstream for the Local Branch
 
 If this branch doesn’t exist on the remote repository, it will be created.
 
@@ -296,11 +301,9 @@ git push -u origin dev
 
 The above command will create `dev` branch on remote repository and our local `dev` branch will track it.
 
-
-## 25. Merge 
+## 25. Merge
 
 Let’s say that continuous integration test on remote `dev` branch ran well and you (_or admin_) now have to merge changes made in your `dev` branch to the `master` branch. Merging happens between two branches, technically, it is careful mixing of commits of two branches.
-
 
 Since, we need all changes made in the `dev` branch to sync with the `master` branch, we have to checkout `master` branch:
 
@@ -424,8 +427,7 @@ maksim@DESKTOP-RFLIR6R MINGW64 ~/work (master)
 $
 ```
 
-## 26. Delete branch 
-
+## 26. Delete Branch
 
 If we are done with `dev` branch and we don’t need it anymore, then we can just delete it using the command below. This will delete the local `dev` branch only.
 
@@ -439,15 +441,13 @@ To delete the remote `dev` branch as well, you need to use the command below.
 git push --delete origin dev
 ```
 
-
-## 27 Fixing common mistakes
+## 27 Fixing Common Mistakes
 
 We have seen so far that if you are working with a team of people, then you should not touch the production branch which in our case is `master`. But what if you accidentally forgot to switch branch and made commits inside the master branch? You can’t just remove your commits using `git reset` and redo the work. That would be painful. In that case, we could use couple of techniques including **cherry-picking**.
 
 Let’s first create a commit inside the `master` branch
 
-
-## 28. Reflog 
+## 28. Reflog
 
 `git reflog` prints a complete list of previous operations.
 
@@ -469,8 +469,7 @@ d4d8b22 HEAD@{12}: commit: update 2022-12-22
 702d0e2 HEAD@{13}: clone: from https://github.com/MaksimZinovev/work-obsidian-vault.git
 ```
 
-
-## 29. Revert 
+## 29. Revert
 
 **What if I made a commit in the wrong branch and pushed it?** Well, that would be wrong and you would not want to remove commits which are published. This is because you will end up rewriting the history of remote branch when you next time push the branch, but other people have the commit that you deleted. This can cause lot of problems.
 
@@ -526,12 +525,12 @@ Since we did undo the changes which were not supposed to be on the `master` bran
 
 _Stashing means secretly hiding something_ and when we stash changes, they are stored in a safe place. This is where `git reset --hard` contradicts. Git **hard reset** will get rid of changes in **_tracked files_** while **stash** will **_do the same_** but it can **save** the changes in a secret location. These changes can be **re-applied** if needed.
 
-## 31. Merge conflicts
-
+## 31. Merge Conflicts
 
 See [[git canvas.canvas\|git canvas.canvas]]
 
 You can’t avoid a situation when you have made some changes **to a line in a file** and somebody else also have made changes to the same line in the same file. If the other developer has published his/her changes to the remote repository and you are trying to publish your changes after that, Git won’t allow you to publish your changes. This happens because Git is confused about whether your changes are important or somebody else’s.
+
 Updated in remote branch
 
 I have made a commit in the remote repository by modifying `add.js` file’s first line and we don’t have that commit in our local repository. Now, let’s make similar changes in the local repository.
@@ -600,18 +599,16 @@ If you think other developer’s work is more important and your changes should 
 
 Merge conflicts can happen at any time and you should be ready for them. One common safe practice is to always keep your local branch in sync with the remote branch by doing git pull. Also, keep pushing commits as soon as you are done with them. That will minimize conflicts by a large extent.
 
-
-
 ## Add
 
--   `git add -A` stages **all changes**
-    -   \= `git add .` + `git add -u`
--   `git add .` stages new files and modifications, ~without deletions~ (on the current directory and its subdirectories)
-    -   \[!\] For Git >= 2.0, `git add .` will add deletions! Use flag `--ignore-removal` to ignore deletion
-    -   \[!\] Therefore, `git add -A` is redundant for Git >= 2.0
--   `git add -u` stages modifications and deletions, **without new files**
+- `git add -A` stages **all changes**
+    - \= `git add .` + `git add -u`
+- `git add .` stages new files and modifications, ~without deletions~ (on the current directory and its subdirectories)
+    - \[!\] For Git >= 2.0, `git add .` will add deletions! Use flag `--ignore-removal` to ignore deletion
+    - \[!\] Therefore, `git add -A` is redundant for Git >= 2.0
+- `git add -u` stages modifications and deletions, **without new files**
 
-## Combine add and commit
+## Combine Add and Commit
 
 ```
 git commit -am "commit message"
@@ -722,11 +719,11 @@ git remote add upstream git@github.com:yiyi/repo.git
 
 Forking and Making Pull Requests Best Practice
 
-1.  Set the original repo as the upstream repo.
-2.  Switch to a new branch before making any changes.
-3.  Make a pull request from a new branch other than `main`/`master`.
-4.  After the pull request is merged into the original repo, pull it into your own `main`/`master` branch.
-5.  Delete the obsolete branch. `git branch -D obsolete-branch`
+1. Set the original repo as the upstream repo.
+2. Switch to a new branch before making any changes.
+3. Make a pull request from a new branch other than `main`/`master`.
+4. After the pull request is merged into the original repo, pull it into your own `main`/`master` branch.
+5. Delete the obsolete branch. `git branch -D obsolete-branch`
 
 ## Discard Changes
 
@@ -774,7 +771,7 @@ git status
 
 ## List Files
 
-### ls-files
+### Ls-files
 
 ```
 git ls-files # Show information about files in the index and the working tree
@@ -791,7 +788,7 @@ git ls-files # Show information about files in the index and the working tree
     [--abbrev[=<n>]] [--] [<file>…]
 ```
 
-### ls-tree
+### Ls-tree
 
 ```
 git ls-tree -r main --name-only
@@ -827,3 +824,38 @@ Sometimes, you don't want the `.git` directory to be in the same directory as th
 cd ~/work/dir # working dir
 git init –separate-git-dir ~/work/dir.git # git dir in the parent dir
 ```
+
+## Bring just One File from another branch
+
+```shell
+git checkout main                 # first get back to main
+git checkout experiment -- app.js # then copy the version of app.js 
+                                  # from branch "experiment"
+```
+
+
+
+
+## [[git/Git check merge conflicts of two branches, without merging them\|Git check merge conflicts of two branches, without merging them]]
+
+
+## [[git/Git list all aliases\|Git list all aliases]]
+
+
+## [[git/Git create new alias\|Git create new alias]]
+
+
+## [[git/git zsh aliases\|git zsh aliases]]
+
+
+## [[git/git merge another branch into mine\|git merge another branch into mine]]
+
+
+## [[git/git delete branch\|git delete branch]]
+
+
+## [[git/git config --global core.autocrlf true. CRLF and LF\|git config --global core.autocrlf true. CRLF and LF]]
+
+
+## [[git/Git reset local repository branch to be like remote branch\|Git reset local repository branch to be like remote branch]]
+
