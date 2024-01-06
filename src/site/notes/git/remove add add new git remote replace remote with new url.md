@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/git/remove-add-add-new-git-remote-replace-remote-with-new-url/","tags":["git","github"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/git/remove-add-add-new-git-remote-replace-remote-with-new-url/","tags":["git","github"]}
 ---
 
 
