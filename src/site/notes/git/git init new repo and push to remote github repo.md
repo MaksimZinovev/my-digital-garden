@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/git/git-init-new-repo-and-push-to-remote-github-repo/","tags":["git"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/git/git-init-new-repo-and-push-to-remote-github-repo/","tags":["git"]}
 ---
 
 
