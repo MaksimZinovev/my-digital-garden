@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/javascript/using-fetch-in-firefox/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/javascript/using-fetch-in-firefox/"}
 ---
 
 
