@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cypress-intro-tau/chapter-2-writing-the-first-test-in-cypress/","tags":["cypress"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/cypress-intro-tau/chapter-2-writing-the-first-test-in-cypress/","tags":["cypress"]}
 ---
 
 ## Chapter 2 - Writing the First Test in Cypress
