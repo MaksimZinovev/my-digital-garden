@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cypress-intro-tau/chapter-6-cypress-cli/","tags":["cypress"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/cypress-intro-tau/chapter-6-cypress-cli/","tags":["cypress"]}
 ---
 
 ## Chapter 6 - Cypress CLI
