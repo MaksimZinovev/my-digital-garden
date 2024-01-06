@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/javascript/chatgpt-parse-csv-file/","tags":["javascript"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/javascript/chatgpt-parse-csv-file/","tags":["javascript"]}
 ---
 
 
