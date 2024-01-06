@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/playwright-intro-ts-tau/chapter-4-1-visual-regression-testing-with-applitools/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/playwright-intro-ts-tau/chapter-4-1-visual-regression-testing-with-applitools/"}
 ---
 
 links:: [[playwright-intro-ts-tau/introduction to playwright typescript MOC\|introduction to playwright typescript MOC]]
