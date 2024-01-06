@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/javascript/javascript-runner-devsheet/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/javascript/javascript-runner-devsheet/"}
 ---
 
 
