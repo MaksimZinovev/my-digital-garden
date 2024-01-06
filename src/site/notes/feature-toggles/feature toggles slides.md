@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/feature-toggles/feature-toggles-slides/","tags":["feature-toggles"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/feature-toggles/feature-toggles-slides/","tags":["feature-toggles"]}
 ---
 
 
@@ -59,7 +59,7 @@ if ( featureFlagEnabled) {
 
 Toggle configuration control
 
-![img/WYWM_2023_Presentation_Feature_Toggles_Maksim Zinovev3.png|500](/img/user/feature-toggles/img/WYWM_2023_Presentation_Feature_Toggles_Maksim%20Zinovev3.png)
+![WYWM_2023_Presentation_Feature_Toggles_Maksim Zinovev3.png|500](/img/user/feature-toggles/img/WYWM_2023_Presentation_Feature_Toggles_Maksim%20Zinovev3.png)
 
 Source: https://martinfowler.com
 
@@ -87,7 +87,7 @@ Source: https://www.atlassian.com/continuous-delivery/principles/feature-flags
 - Permissioning Toggles
   
 
-![img/WYWM_2023_Presentation_Feature_Toggles_Maksim Zinovev11.png|500](/img/user/feature-toggles/img/WYWM_2023_Presentation_Feature_Toggles_Maksim%20Zinovev11.png)
+![WYWM_2023_Presentation_Feature_Toggles_Maksim Zinovev11.png|500](/img/user/feature-toggles/img/WYWM_2023_Presentation_Feature_Toggles_Maksim%20Zinovev11.png)
 
 Source: https://martinfowler.com
 
@@ -131,7 +131,7 @@ Toggle Configuration File
 
 ## Tools: Azure App Configuration
 
-![img/WYWM_2023_Presentation_Feature_Toggles_Maksim Zinovev18.png|500](/img/user/feature-toggles/img/WYWM_2023_Presentation_Feature_Toggles_Maksim%20Zinovev18.png)
+![WYWM_2023_Presentation_Feature_Toggles_Maksim Zinovev18.png|500](/img/user/feature-toggles/img/WYWM_2023_Presentation_Feature_Toggles_Maksim%20Zinovev18.png)
 
 Source: https://learn.microsoft.com/en-us/azure/azure-app-configuration/
 
@@ -139,7 +139,7 @@ Azure App Configuration provides a service to centrally manage application setti
 
 Enables staged rollout of features for targeted audiences
 
-![img/WYWM_2023_Presentation_Feature_Toggles_Maksim Zinovev20.png|500](/img/user/feature-toggles/img/WYWM_2023_Presentation_Feature_Toggles_Maksim%20Zinovev20.png)
+![WYWM_2023_Presentation_Feature_Toggles_Maksim Zinovev20.png|500](/img/user/feature-toggles/img/WYWM_2023_Presentation_Feature_Toggles_Maksim%20Zinovev20.png)
 
 The feature flag is always enabled for user test@contoso.com, because test@contoso.com is listed in the Users section.
 
@@ -147,7 +147,7 @@ The feature flag is enabled for 50% of other users in the contoso.com group, bec
 
 The feature is always disabled for all other users, because the Default percentage is set to 0.
 
-![img/WYWM_2023_Presentation_Feature_Toggles_Maksim Zinovev23.gif](/img/user/feature-toggles/img/WYWM_2023_Presentation_Feature_Toggles_Maksim%20Zinovev23.gif)
+![WYWM_2023_Presentation_Feature_Toggles_Maksim Zinovev23.gif](/img/user/feature-toggles/img/WYWM_2023_Presentation_Feature_Toggles_Maksim%20Zinovev23.gif)
 
 ## Best Practices for Using Feature Flags
 
@@ -157,7 +157,7 @@ The feature is always disabled for all other users, because the Default percenta
 
 ## Testing Feature Toggles
 
-![img/WYWM_2023_Presentation_Feature_Toggles_Maksim Zinovev25.png|500](/img/user/feature-toggles/img/WYWM_2023_Presentation_Feature_Toggles_Maksim%20Zinovev25.png)
+![WYWM_2023_Presentation_Feature_Toggles_Maksim Zinovev25.png|500](/img/user/feature-toggles/img/WYWM_2023_Presentation_Feature_Toggles_Maksim%20Zinovev25.png)
 
 Testing without feature toggles
 
@@ -219,13 +219,13 @@ Testing with feature toggles
 - Number of toggles N=16
 - Number of combinations C=65,536
 
-![img/WYWM_2023_Presentation_Feature_Toggles_Maksim Zinovev30.jpg|500](/img/user/feature-toggles/img/WYWM_2023_Presentation_Feature_Toggles_Maksim%20Zinovev30.jpg)
+![WYWM_2023_Presentation_Feature_Toggles_Maksim Zinovev30.jpg|500](/img/user/feature-toggles/img/WYWM_2023_Presentation_Feature_Toggles_Maksim%20Zinovev30.jpg)
 
-![img/WYWM_2023_Presentation_Feature_Toggles_Maksim Zinovev33.jpg|500](/img/user/feature-toggles/img/WYWM_2023_Presentation_Feature_Toggles_Maksim%20Zinovev33.jpg)
+![WYWM_2023_Presentation_Feature_Toggles_Maksim Zinovev33.jpg|500](/img/user/feature-toggles/img/WYWM_2023_Presentation_Feature_Toggles_Maksim%20Zinovev33.jpg)
 
 Integration, E2E testing of large number of flags
 
-![img/WYWM_2023_Presentation_Feature_Toggles_Maksim Zinovev35.jpg|500](/img/user/feature-toggles/img/WYWM_2023_Presentation_Feature_Toggles_Maksim%20Zinovev35.jpg)
+![WYWM_2023_Presentation_Feature_Toggles_Maksim Zinovev35.jpg|500](/img/user/feature-toggles/img/WYWM_2023_Presentation_Feature_Toggles_Maksim%20Zinovev35.jpg)
 
 Source: https://launchdarkly.com/blog/testing-with-feature-flags/
 
