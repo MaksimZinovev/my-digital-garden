@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/microsoft-az-400-get-started-dev-ops-transformation-journey/az-400-get-started-on-a-dev-ops-transformation-journey/","tags":["azure","course"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/microsoft-az-400-get-started-dev-ops-transformation-journey/az-400-get-started-on-a-dev-ops-transformation-journey/","tags":["azure","course"]}
 ---
 
 
