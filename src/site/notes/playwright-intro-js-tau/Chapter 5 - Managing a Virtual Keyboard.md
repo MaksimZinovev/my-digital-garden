@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"courses/playwright-intro-js-tau/Chapter 5 - Managing a Virtual Keyboard.md","permalink":"/courses/playwright-intro-js-tau/chapter-5-managing-a-virtual-keyboard/","tags":["playwright"],"created":"","updated":""}
+{"dg-publish":true,"dg-path":"courses/playwright-intro-js-tau/Chapter 5 - Managing a Virtual Keyboard.md","permalink":"/courses/playwright-intro-js-tau/chapter-5-managing-a-virtual-keyboard/","tags":["playwright"]}
 ---
 
-links:: [[playwright-intro-js-tau/TAU Course Playwright with JavaScript by Ixchel Meza\|TAU Course Playwright with JavaScript by Ixchel Meza]]
+links:: [[playwright-intro-js-tau/TAU Course Playwright with JavaScript by Ixchel Meza MOC\|TAU Course Playwright with JavaScript by Ixchel Meza MOC]]
 
 # Chapter 5 - Managing a Virtual Keyboard
 
