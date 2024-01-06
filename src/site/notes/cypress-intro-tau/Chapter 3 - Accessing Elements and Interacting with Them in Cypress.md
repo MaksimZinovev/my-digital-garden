@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cypress-intro-tau/chapter-3-accessing-elements-and-interacting-with-them-in-cypress/","tags":["cypress"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/cypress-intro-tau/chapter-3-accessing-elements-and-interacting-with-them-in-cypress/","tags":["cypress"]}
 ---
 
 ## Chapter 3 - Accessing Elements and Interacting with Them in Cypress
