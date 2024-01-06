@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/playwright-intro-ts-tau/chapter-4-2-visual-regression-testing-in-playwright/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/playwright-intro-ts-tau/chapter-4-2-visual-regression-testing-in-playwright/"}
 ---
 
 links:: [[playwright-intro-ts-tau/introduction to playwright typescript MOC\|introduction to playwright typescript MOC]]
