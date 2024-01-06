@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/git/gitignore-template-markdown-repo/","tags":["git"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/git/gitignore-template-markdown-repo/","tags":["git"]}
 ---
 
 
