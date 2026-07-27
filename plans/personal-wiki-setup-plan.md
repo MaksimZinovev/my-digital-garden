@@ -18,7 +18,7 @@
 - QMD indexes the entire iCloud vault for local search (1,686 files)
 - Pi agent helps with migration, enrichment, lint, auto-tag/link
 - Notes published via Vercel site (existing) or Quartz (later)
-- `publish: true` frontmatter controls public/private split
+- `"dg-publish": true` in JSON frontmatter controls public/private split (Digital Garden plugin convention)
 - Automations: daily maintenance (Task Scheduler), weekly lint (Pi session)
 - Published site has: search, graph view, tags, categories, backlinks
 
@@ -74,10 +74,11 @@
 
 ### 1.5 Configure OpenKnowledge for the garden repo (30 min)
 - [ ] Open OpenKnowledge desktop app
-- [ ] Open the `C:\Users\maksi\repos\my-digital-garden` folder
-- [ ] Initialize the Knowledge base starter pack (`ok seed --pack knowledge-base`)
-- [ ] Verify folders created: `external-sources/`, `research/`, `articles/`, `log.md`
-- [ ] Verify `.ok/frontmatter.yml` created per folder
+- [ ] Open the `C:\Users\maksi\repos\my-digital-garden` folder as the knowledge base
+- [ ] **Important**: OK manages the repo root, but content lives in `src/site/notes/`. When OK creates folders (external-sources, research, articles), they should go inside `src/site/notes/`, not repo root. Check if OK supports custom content paths.
+- [ ] Initialize the Knowledge base starter pack (`ok seed --pack knowledge-base`) — verify where it creates folders
+- [ ] If OK creates folders at repo root: move them to `src/site/notes/` and update OK config
+- [ ] Verify `.ok/frontmatter.yml` created (at repo root for OK, or per-folder inside `src/site/notes/`)
 - [ ] Verify OK MCP server is running (check if Pi can see `mcp__open-knowledge__*` tools)
 
 ### 1.6 Back up the iCloud vault (15 min)
@@ -91,28 +92,45 @@
 
 > Goal: Define folder structure, frontmatter conventions, templates, and filing rules for the garden repo.
 
-### 2.1 Audit existing garden repo structure (15 min)
-- [ ] List all folders and files in `C:\Users\maksi\repos\my-digital-garden`
-- [ ] Check what the 11ty/Digital Garden template expects (folder structure, frontmatter)
-- [ ] Identify which existing notes are already published
-- [ ] Decide: keep existing structure or restructure for OK Knowledge base pack
+### 2.1 Audit existing garden repo structure ✅ DONE (during Task 1.1)
+- [x] List all folders and files — 112 notes in `src/site/notes/` across 15 topic folders
+- [x] Check what 11ty expects — `src/site/` is input dir, `src/site/notes/` is where notes live, link resolver reads from `./src/site/notes/`
+- [x] All 112 notes already have `"dg-publish":true` in JSON frontmatter
+- [x] Decision: keep existing `src/site/notes/` structure, add OK content folders inside it
 
 ### 2.2 Define folder structure for the garden repo (30 min)
+- [ ] **Critical constraint**: 11ty reads from `src/site/` as input dir. The link resolver hardcodes `./src/site/notes/` as the note root. All publishable content MUST be inside `src/site/notes/`.
 - [ ] Map out the target directory structure:
   ```
   my-digital-garden/
-  ├── external-sources/    → raw source material (OK ingest)
-  ├── research/            → provisional synthesis (OK research)
-  ├── articles/            → canonical articles (OK consolidate)
-  ├── notes/               → general notes (existing, keep)
-  ├── resources/           → curated resource notes (migrated from iCloud)
-  │   ├── pkm/             → knowledge management
-  │   ├── ai/              → AI research
-  │   └── ...
-  ├── log.md               → audit trail (OK)
-  └── vercel.json          → existing Vercel config
+  ├── .ok/                     → OK configuration (repo root, not published)
+  │   └── frontmatter.yml      → per-folder frontmatter rules
+  ├── plans/                   → this plan (not published)
+  ├── log.md                   → OK audit trail (repo root, not published)
+  ├── src/
+  │   └── site/
+  │       ├── notes/            → ALL published content lives here
+  │       │   ├── git/           → existing topic
+  │       │   ├── playwright-*/  → existing topics
+  │       │   ├── cypress-*/     → existing topics
+  │       │   ├── javascript/   → existing topic
+  │       │   ├── resources/     → NEW: migrated from iCloud
+  │       │   │   ├── pkm/       → knowledge management
+  │       │   │   ├── ai/        → AI research
+  │       │   │   └── ...
+  │       │   ├── external-sources/  → NEW: OK ingest output
+  │       │   ├── research/      → NEW: OK research output
+  │       │   └── articles/     → NEW: OK consolidate output
+  │       ├── img/              → images (existing)
+  │       ├── scripts/          → client-side JS (existing)
+  │       └── styles/           → CSS (existing)
+  ├── .eleventy.js             → 11ty config (existing)
+  ├── .eleventyignore           → excludes netlify/functions (existing)
+  ├── .env                     → site config vars (existing)
+  ├── vercel.json              → Vercel deploy config (existing)
+  └── package.json             → 11ty + deps (existing)
   ```
-- [ ] Create folders that don't exist yet
+- [ ] Create new folders: `src/site/notes/resources/`, `src/site/notes/resources/pkm/`, `src/site/notes/external-sources/`, `src/site/notes/research/`, `src/site/notes/articles/`
 - [ ] Document the structure in a `README.md` at repo root
 
 ### 2.3 Define frontmatter conventions (20 min)
@@ -134,26 +152,24 @@
 - [ ] Investigate: can OK read JSON frontmatter, or does it require YAML? (check OK docs)
 
 ### 2.4 Create folder frontmatter for OK (20 min)
-- [ ] Write `.ok/frontmatter.yml` for `external-sources/`:
+- [ ] **Note**: OK `.ok/frontmatter.yml` goes at repo root. OK content folders live inside `src/site/notes/`. Verify OK can read frontmatter rules from repo root while managing content in `src/site/notes/`.
+- [ ] Write `.ok/frontmatter.yml` for `src/site/notes/external-sources/`:
   ```yaml
   description: "Raw sources saved verbatim — URLs, PDFs, transcripts. Immutable. Produced by ingest."
   ```
-- [ ] Write `.ok/frontmatter.yml` for `research/`:
+- [ ] Write `.ok/frontmatter.yml` for `src/site/notes/research/`:
   ```yaml
   description: "Provisional synthesis of sources. Every claim cites a source path. Status: provisional."
   ```
-- [ ] Write `.ok/frontmatter.yml` for `articles/`:
+- [ ] Write `.ok/frontmatter.yml` for `src/site/notes/articles/`:
   ```yaml
   description: "Canonical articles. Promoted from research via consolidate. Status: canonical."
   ```
-- [ ] Write `.ok/frontmatter.yml` for `resources/`:
+- [ ] Write `.ok/frontmatter.yml` for `src/site/notes/resources/`:
   ```yaml
   description: "Curated resource notes — organized by topic. These are the main knowledge base articles."
   ```
-- [ ] Write `.ok/frontmatter.yml` for `notes/`:
-  ```yaml
-  description: "General notes and scratch space. Not yet categorized."
-  ```
+- [ ] Investigate: does OK support per-subfolder frontmatter rules (e.g. `src/site/notes/resources/pkm/` vs `src/site/notes/resources/ai/`)?
 
 ### 2.5 Create RESOLVER.md — filing decision tree (30 min)
 - [ ] Write `RESOLVER.md` at garden repo root:
@@ -197,7 +213,7 @@
 - [ ] For each note (do 5 at a time):
   1. Copy from iCloud vault to `resources/pkm/` in the garden repo
   2. Open in OpenKnowledge or text editor
-  3. Add/fix frontmatter (title, type, tags, date, source, publish: false initially)
+  3. Add/fix frontmatter — JSON format: `{"dg-publish":false,"permalink":"/resources/pkm/note-name/","tags":[...],"type":"...","date":"...","source":"..."}`
   4. Add `[[wikilinks]]` to related notes that exist in the garden repo
   5. Fix any broken image paths (copy images to `attachments/`)
   6. Commit with message: `migrate: [note name] from iCloud vault`
@@ -389,7 +405,7 @@
 ### 6.5 Run OK link graph audit (15 min)
 - [ ] Use OK `links` tool: ask Pi to find orphans and dead links in the garden repo
 - [ ] Compare with grep-based lint results
-- [ | Fix any discrepancies
+- [ ] Fix any discrepancies
 
 ---
 
@@ -508,7 +524,7 @@
 - [ ] Pick another 50-100 notes from the iCloud vault
 - [ ] Batch-enrich with Pi (frontmatter, tags, links)
 - [ ] Copy to garden repo
-- [ ] Set `publish: true` on the best 10-20
+- [ ] Set `"dg-publish":true` on the best 10-20
 - [ ] Push and verify on Vercel
 
 ### 8.2 Full vault lint (45 min)
@@ -532,7 +548,7 @@
   - Frontmatter conventions
   - Publishing workflow
   - Maintenance schedule
-- [ ] Update `C:\Users\maksi\iCloudDrive\iCloud~md~obsidian\obsidian-sync\resources\pkm\progress.md` with completed items
+- [ ] Update `C:\Users\maksi\repos\my-digital-garden\plans\personal-wiki-setup-plan.md` with completed items
 - [ ] Create a "cheat sheet" of common commands and prompts
 
 ### 8.5 Plan next steps (15 min)
