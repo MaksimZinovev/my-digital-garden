@@ -16,6 +16,9 @@
     "keywords": [],
     "author": "",
     "license": "ISC",
+    "engines": {
+        "node": ">=22"
+    },
     "devDependencies": {
         "@11ty/eleventy": "^2.0.0",
         "cross-env": "^7.0.3",
